@@ -1,0 +1,40 @@
+    /* #demo1{
+        position: absolute;
+        bottom: 137.5px;
+        left: 300px;
+        background-color: wheat;
+    } */
+
+    .demo2 {
+        width: 100px;
+        height: 50px;
+        position: relative;
+        background-color: red;
+        z-index: -2;
+    }
+
+    /* @keyframes demo {
+        0%{
+            border: 1px red solid;
+        }
+        100%{
+            border: 1px  red solid;
+            border-bottom-left-radius: 100px;
+        }
+    } */
+    
+    #demo {
+        width: 200px;
+        height: 200px;
+        border: 1px solid red;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        box-sizing: border-box;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 80px;
+        animation: demo 1s 8s both;
+        position: absolute;
+        left: 50px;
+        background-color: rosybrown;
+    }
