@@ -1,0 +1,1188 @@
+#Flame1 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rebeccapurple; */
+    border-radius: 150px;
+    position: absolute;
+    left: 142px;
+    top: 132px;
+    z-index: -11;
+}
+
+#Flame2 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(241, 36, 115); */
+    border-radius: 150px;
+    position: absolute;
+    left: 190px;
+    top: 110px;
+    z-index: -11;
+}
+#Flame3 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(241, 36, 115); */
+    border-radius: 150px;
+    position: absolute;
+    left: 240px;
+    top: 61px;
+    z-index: -11;
+}
+#Flame4 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(241, 36, 115); */
+    border-radius: 150px;
+    position: absolute;
+    left: 290px;
+    top: 41px;
+    z-index: -11;
+}
+#Flame5 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(241, 36, 115); */
+    border-radius: 150px;
+    position: absolute;
+    left: 340px;
+    top: 80px;
+    z-index: -11;
+}
+
+.fireFlame11 {
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    /* background-color: aqua; */
+}
+.fireFlame12 {
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    /* background-color: aqua; */
+}
+.fireFlame13 {
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    /* background-color: aqua; */
+}
+.fireFlame14 {
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    /* background-color: aqua; */
+}
+.fireFlame15 {
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    /* background-color: aqua; */
+}
+
+#flame11 {
+    left: 158px;
+    top: 150px;
+    animation-name: flame11;
+}
+
+@keyframes flame11 {
+    0% {}
+
+    100% {
+        transform: translateX(112px);
+        /* 30px 递减*/
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame12 {
+    left: 112.5px;
+    top: 150px;
+    animation-name: flame12;
+}
+
+@keyframes flame12 {
+    0% {
+        /* transform: translateX(0px); */
+    }
+
+    100% {
+        transform: translateX(-112px);
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame13 {
+    left: 135.5px;
+    top: 126px;
+    animation-name: flame13;
+}
+
+@keyframes flame13 {
+    0% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 18.5px;
+        /* 8px 递减*/
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame14 {
+    left: 135.5px;
+    top: 173px;
+    animation-name: flame14;
+}
+
+@keyframes flame14 {
+    0% {
+        transform: rotate(-90deg);
+    }
+
+    100% {
+        transform: rotate(-90deg);
+        /*此处只能用top和left进行平移*/
+        top: 276.5px;
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame15 {
+    left: 159px;
+    top: 173px;
+    animation-name: flame15;
+}
+
+@keyframes flame15 {
+
+    /*右下*/
+    0% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(45deg);
+        /*此处只能用top和left进行平移*/
+        left: 234px;
+        top: 239.5px;
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame16 {
+    left: 114px;
+    top: 173px;
+    animation-name: flame16;
+}
+
+@keyframes flame16 {
+
+    /*左下*/
+    0% {
+        transform: rotate(135deg);
+    }
+
+    100% {
+        transform: rotate(135deg);
+        /*此处只能用top和left进行平移*/
+        top: 243.5px;
+        left: 39.5px;
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame17 {
+    left: 163px;
+    top: 125px;
+    animation-name: flame17;
+}
+
+@keyframes flame17 {
+
+    /*右上*/
+    0% {
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        transform: rotate(-45deg);
+        /*此处只能用top和left进行平移*/
+        top: 60.5px;
+        left: 236px;
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame18 {
+    /*左上*/
+    left: 118px;
+    top: 125px;
+    animation-name: flame18;
+}
+
+@keyframes flame18 {
+    0% {
+        transform: rotate(-135deg);
+    }
+
+    100% {
+        transform: rotate(-135deg);
+        /*此处只能用top和left进行平移*/
+        top: 60.5px;
+        left: 34px;
+        background-color: white;
+        height: 2px;
+    }
+}
+
+.fireFlame21 {
+    width: 25px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    /* background-color: rgb(255, 255, 5); */
+}
+.fireFlame22 {
+    width: 25px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    /* background-color: rgb(255, 255, 5); */
+}
+.fireFlame23 {
+    width: 25px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    /* background-color: rgb(255, 255, 5); */
+}
+.fireFlame24 {
+    width: 25px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    /* background-color: rgb(255, 255, 5); */
+}
+.fireFlame25 {
+    width: 25px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    /* background-color: rgb(255, 255, 5); */
+}
+
+#flame21 {
+    left: 154px;
+    top: 150px;
+    animation-name: flame21;
+}
+
+@keyframes flame21 {
+
+    /*正右*/
+    0% {}
+
+    100% {
+        transform: translateX(74px);
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame22 {
+    left: 108.5px;
+    top: 150px;
+    animation-name: flame22;
+}
+
+@keyframes flame22 {
+
+    /*正左*/
+    0% {
+        /* transform: translateX(0px); */
+    }
+
+    100% {
+        transform: translateX(-64px);
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame23 {
+    left: 138px;
+    top: 126px;
+    animation-name: flame23;
+}
+
+@keyframes flame23 {
+    0% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 60px;
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame24 {
+    left: 138px;
+    top: 173px;
+    animation-name: flame24;
+    /* background-color: rgb(223, 156, 13); */
+}
+
+@keyframes flame24 {
+    0% {
+        transform: rotate(-90deg);
+    }
+
+    100% {
+        transform: rotate(-90deg);
+        /*此处只能用top和left进行平移*/
+        top: 230px;
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame25 {
+    left: 159px;
+    top: 173px;
+    animation-name: flame25;
+}
+
+@keyframes flame25 {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(45deg);
+        /*此处只能用top和left进行平移*/
+        left: 205px;
+        top: 212.5px;
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame26 {
+    left: 114px;
+    top: 173px;
+    animation-name: flame26;
+}
+
+@keyframes flame26 {
+    0% {
+        transform: rotate(135deg);
+    }
+
+    100% {
+        transform: rotate(135deg);
+        /*此处只能用top和left进行平移*/
+        top: 212.5px;
+        left: 75px;
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame27 {
+    left: 159px;
+    top: 125px;
+    animation-name: flame27;
+}
+
+@keyframes flame27 {
+    0% {
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        transform: rotate(-45deg);
+        /*此处只能用top和left进行平移*/
+        top: 92px;
+        left: 205.5px;
+        background-color: white;
+        height: 2px;
+    }
+}
+
+#flame28 {
+    left: 110px;
+    top: 125px;
+    animation-name: flame28;
+}
+
+@keyframes flame28 {
+    0% {
+        transform: rotate(-135deg);
+    }
+
+    100% {
+        transform: rotate(-135deg);
+        /*此处只能用top和left进行平移*/
+        top: 92px;
+        left: 67.5px;
+        background-color: white;
+        height: 2px;
+    }
+}
+
+.fireFlame31 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+.fireFlame32 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+.fireFlame33 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+.fireFlame34 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+.fireFlame35 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+
+#flame31 {
+    left: 154px;
+    top: 149.5px;
+    animation-name: flame31;
+}
+
+@keyframes flame31 {
+    0% {
+        /* transform: translateX(0px); */
+    }
+
+    100% {
+        transform: translateX(50px);
+        background-color: white;
+        height: 3px;
+    }
+}
+
+#flame32 {
+    left: 108.5px;
+    top: 149.5px;
+    animation-name: flame32;
+}
+
+@keyframes flame32 {
+    0% {
+        /* transform: translateX(0px); */
+    }
+
+    100% {
+        transform: translateX(-35px);
+        background-color: white;
+        height: 3px;
+    }
+}
+
+#flame33 {
+    left: 140.5px;
+    top: 126px;
+    animation-name: flame33;
+}
+
+@keyframes flame33 {
+    0% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 87px;
+        background-color: white;
+        height: 3px;
+    }
+}
+
+#flame34 {
+    left: 140.5px;
+    top: 173px;
+    animation-name: flame34;
+}
+
+@keyframes flame34 {
+    0% {
+        transform: rotate(-90deg);
+    }
+
+    100% {
+        transform: rotate(-90deg);
+        /*此处只能用top和left进行平移*/
+        top: 202px;
+        background-color: white;
+        height: 3px;
+    }
+}
+
+#flame35 {
+    left: 159px;
+    top: 173px;
+    animation-name: flame35;
+}
+
+@keyframes flame35 {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(45deg);
+        /*此处只能用top和left进行平移*/
+        left: 180px;
+        top: 185.5px;
+        background-color: white;
+        height: 3px;
+    }
+}
+
+#flame36 {
+    left: 114px;
+    top: 173px;
+    animation-name: flame36;
+}
+
+@keyframes flame36 {
+    0% {
+        transform: rotate(135deg);
+    }
+
+    100% {
+        transform: rotate(135deg);
+        /*此处只能用top和left进行平移*/
+        top: 185.5px;
+        left: 104px;
+        background-color: white;
+        height: 3px;
+    }
+}
+
+#flame37 {
+    left: 159px;
+    top: 125px;
+    animation-name: flame37;
+}
+
+@keyframes flame37 {
+    0% {
+        transform: rotate(-45deg);
+    }
+
+    100% {
+        transform: rotate(-45deg);
+        /*此处只能用top和left进行平移*/
+        top: 123px;
+        left: 180px;
+        background-color: white;
+        height: 3px;
+    }
+}
+
+#flame38 {
+    left: 114px;
+    top: 125px;
+    animation-name: flame38;
+}
+
+@keyframes flame38 {
+    0% {
+        transform: rotate(-135deg);
+    }
+
+    100% {
+        transform: rotate(-135deg);
+        /*此处只能用top和left进行平移*/
+        top: 123px;
+        left: 104px;
+        background-color: white;
+        height: 3px;
+    }
+}
+
+.fireFlame41 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+.fireFlame42 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+.fireFlame43 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+.fireFlame44 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+.fireFlame45 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+#flame41 {
+    left: 154px;
+    top: 149.5px;
+    animation-name: flame41;
+}
+
+@keyframes flame41 {
+    0% {
+        /* transform: translateX(0px); */
+    }
+
+    100% {
+        transform: translateX(21px);
+        background-color: white;
+        height: 1px;
+    }
+}
+
+#flame42 {
+    left: 108.5px;
+    top: 149.5px;
+    animation-name: flame42;
+}
+
+@keyframes flame42 {
+    0% {
+        /* transform: translateX(0px); */
+    }
+
+    100% {
+        transform: translateX(-25%);
+        background-color: white;
+        height: 1px;
+    }
+}
+
+#flame43 {
+    left: 140.5px;
+    top: 126px;
+    animation-name: flame43;
+}
+
+@keyframes flame43 {
+    0% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(90deg);
+        top: 120px;
+        background-color: white;
+        height: 1px;
+    }
+}
+
+#flame44 {
+    left: 140.5px;
+    top: 173px;
+    animation-name: flame44;
+}
+
+@keyframes flame44 {
+    0% {
+        transform: rotate(-90deg);
+    }
+
+    100% {
+        transform: rotate(-90deg);
+        /*此处只能用top和left进行平移*/
+        top: 173px;
+        background-color: white;
+        height: 1px;
+    }
+}
+
+#flame45 {
+    left: 164px;
+    top: 160px;
+    animation-name: flame45;
+}
+
+@keyframes flame45 {
+    0% {
+        transform: rotate(22.5deg);
+    }
+
+    100% {
+        transform: rotate(22.5deg);
+        /*此处只能用top和left进行平移*/
+        left: 210px;
+        top: 180px;
+        background-color: white;
+        width: 33px;
+        height: 3px;
+    }
+}
+
+#flame46 {
+    left: 127px;
+    top: 175px;
+    animation-name: flame46;
+}
+
+@keyframes flame46 {
+    0% {
+        transform: rotate(112.5deg);
+    }
+
+    100% {
+        transform: rotate(112.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 210px;
+        left: 104px;
+        background-color: white;
+        width: 35px;
+        height: 3px;
+    }
+}
+
+#flame47 {
+    left: 164px;
+    top: 135px;
+    animation-name: flame47;
+}
+
+@keyframes flame47 {
+    0% {
+        transform: rotate(-22.5deg);
+    }
+
+    100% {
+        transform: rotate(-22.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 123px;
+        left: 210px;
+        background-color: white;
+        width: 35px;
+        height: 3px;
+    }
+}
+
+#flame48 {
+    left: 120px;
+    top: 125px;
+    animation-name: flame48;
+}
+
+@keyframes flame48 {
+    0% {
+        transform: rotate(-112.5deg);
+    }
+
+    100% {
+        transform: rotate(-112.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 93px;
+        left: 107px;
+        background-color: white;
+        width: 35px;
+        height: 3px;
+    }
+}
+
+#flame49 {
+    left: 104px;
+    top: 135px;
+    animation-name: flame49;
+}
+
+@keyframes flame49 {
+    0% {
+        transform: rotate(-167.5deg);
+    }
+
+    100% {
+        transform: rotate(-167.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 128px;
+        left: 67px;
+        background-color: white;
+        width: 35px;
+        height: 3px;
+    }
+}
+
+#flame401 {
+    left: 150px;
+    top: 125px;
+    animation-name: flame401;
+}
+
+@keyframes flame401 {
+    0% {
+        transform: rotate(-67.5deg);
+    }
+
+    100% {
+        transform: rotate(-67.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 93px;
+        left: 163px;
+        background-color: white;
+        width: 35px;
+        height: 3px;
+    }
+}
+
+#flame402 {
+    left: 153px;
+    top: 175px;
+    animation-name: flame402;
+}
+
+@keyframes flame402 {
+    0% {
+        transform: rotate(67.5deg);
+    }
+
+    100% {
+        transform: rotate(67.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 209px;
+        left: 163px;
+        background-color: white;
+        width: 35px;
+        height: 3px;
+    }
+}
+
+#flame403 {
+    left: 114px;
+    top: 160px;
+    animation-name: flame403;
+}
+
+@keyframes flame403 {
+    0% {
+        transform: rotate(167.5deg);
+    }
+
+    100% {
+        transform: rotate(167.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 173px;
+        left: 77px;
+        background-color: white;
+        width: 35px;
+        height: 3px;
+    }
+}
+
+.fireFlame51 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+.fireFlame52 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+.fireFlame53 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+.fireFlame54 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+.fireFlame55 {
+    width: 20px;
+    height: 5px;
+    position: absolute;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+#flame51 {
+    left: 164px;
+    top: 160px;
+    animation-name: flame51;
+}
+
+@keyframes flame51 {
+    0% {
+        transform: rotate(22.5deg);
+    }
+
+    100% {
+        transform: rotate(22.5deg);
+        /*此处只能用top和left进行平移*/
+        left: 250px;
+        top: 197px;
+        background-color: white;
+        width: 40px;
+        height: 4px;
+    }
+}
+
+#flame52 {
+    left: 127px;
+    top: 175px;
+    animation-name: flame52;
+}
+
+@keyframes flame52 {
+    0% {
+        transform: rotate(112.5deg);
+    }
+
+    100% {
+        transform: rotate(112.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 250px;
+        left: 84px;
+        background-color: white;
+        width: 40px;
+        height: 4px;
+    }
+}
+
+#flame53 {
+    left: 164px;
+    top: 135px;
+    animation-name: flame53;
+}
+
+@keyframes flame53 {
+    0% {
+        transform: rotate(-22.5deg);
+    }
+
+    100% {
+        transform: rotate(-22.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 105px;
+        left: 250px;
+        background-color: white;
+        width: 40px;
+        height: 4px;
+    }
+}
+
+#flame54 {
+    left: 120px;
+    top: 125px;
+    animation-name: flame54;
+}
+
+@keyframes flame54 {
+    0% {
+        transform: rotate(-112.5deg);
+    }
+
+    100% {
+        transform: rotate(-112.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 43px;
+        left: 83px;
+        background-color: white;
+        width: 40px;
+        height: 4px;
+    }
+}
+
+#flame55 {
+    left: 104px;
+    top: 135px;
+    animation-name: flame55;
+}
+
+@keyframes flame55 {
+    0% {
+        transform: rotate(-167.5deg);
+    }
+
+    100% {
+        transform: rotate(-167.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 117px;
+        left: 20px;
+        background-color: white;
+        width: 40px;
+        height: 4px;
+    }
+}
+
+#flame56 {
+    left: 150px;
+    top: 125px;
+    animation-name: flame56;
+}
+
+@keyframes flame56 {
+    0% {
+        transform: rotate(-67.5deg);
+    }
+
+    100% {
+        transform: rotate(-67.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 43px;
+        left: 182px;
+        background-color: white;
+        width: 40px;
+        height: 4px;
+    }
+}
+
+#flame57 {
+    left: 153px;
+    top: 175px;
+    animation-name: flame57;
+}
+
+@keyframes flame57 {
+    0% {
+        transform: rotate(67.5deg);
+    }
+
+    100% {
+        transform: rotate(67.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 250px;
+        left: 178px;
+        background-color: white;
+        width: 40px;
+        height: 4px;
+    }
+}
+
+#flame58 {
+    left: 114px;
+    top: 160px;
+    animation-name: flame58;
+}
+
+@keyframes flame58 {
+    0% {
+        transform: rotate(167.5deg);
+    }
+
+    100% {
+        transform: rotate(167.5deg);
+        /*此处只能用top和left进行平移*/
+        top: 183px;
+        left: 27px;
+        background-color: white;
+        width: 40px;
+        height: 4px;
+    }
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    position: absolute;
+    /* z-index: -999; */
+}

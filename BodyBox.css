@@ -1,0 +1,249 @@
+#peopleHead {
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 25px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    animation-name: tdfoleHead;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.1, 0.4, 0.5, 0.9);
+}
+
+@keyframes tdfoleHead {
+    0% {
+        transform: rotate(0deg);
+        left: 0px;
+        border-color: white;
+    }
+
+    50% {
+        transform: rotate(360deg);
+        left: 50px;
+        border-color: red;
+    }
+
+    100% {
+        transform: translateY(-72px);
+        left: 50px;
+        border-color: red;
+    }
+}
+
+#peopleBody {
+    width: 2px;
+    height: 50px;
+    position: absolute;
+    bottom: 22px;
+    left: 75px;
+    animation-name: showBody;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+    z-index: -1;
+}
+
+@keyframes showBody {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+#peopleHand {
+    width: 38px;
+    height: 38px;
+    border: 2px red solid;
+    background-color: white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+    animation-name: showHand;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+    z-index: -2;
+}
+
+@keyframes showHand {
+    0% {
+        border-color: white;
+    }
+
+    10% {
+        border-color: red;
+        transform: rotate(-20deg);
+        left: 79.5px;
+        bottom: 30px;
+    }
+
+    95% {
+        transform: rotate(-20deg);
+        border-color: red;
+        border-top-left-radius: 11px;
+        border-top-right-radius: 17px;
+        left: 77.5px;
+        bottom: 30px;
+    }
+
+    100% {
+        border-color: red;
+        transform: rotate(-20deg);
+        left: 80.5px;
+        bottom: 30px;
+    }
+}
+
+#leftLeg {
+    width: 2px;
+    height: 30px;
+    position: absolute;
+    left: 120px;
+    bottom: 0px;
+    background-color: red;
+    animation-name: showLeftLeg;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+}
+
+@keyframes showLeftLeg {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: red;
+        transform: rotate(45deg);
+        left: 63.5px;
+        bottom: -3px;
+    }
+}
+
+#rightLeg {
+    width: 2px;
+    height: 30px;
+    position: absolute;
+    left: 120px;
+    bottom: 0px;
+    background-color: red;
+    animation-name: showRightLeg;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+}
+
+@keyframes showRightLeg {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: red;
+        transform: rotate(135deg);
+        left: 86px;
+        bottom: -3px;
+    }
+}
+
+#fireWorksBox {
+    width: 250px;
+    height: 150px;
+    border: 2px solid;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    bottom: 0px;
+    left: 116px;
+    border-radius: 5px;
+    animation-name: Box;
+    animation-duration: 4.9s;
+    animation-delay: 5s;
+    animation-fill-mode: both;
+}
+
+/* #fireWorksBox1{
+    width: 200px;
+    height: 150px;
+    border: 2px solid;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    left: 110px;
+    border-radius: 5px;
+    animation-name: Box1;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+    z-index: 1;
+} */
+
+@keyframes Box {
+    0% {
+        border-color: white;
+    }
+
+    80% {
+        border-color: red;
+        transform: translateX(0px);
+    }
+
+    100% {
+        border-color: red;
+        transform: translateX(150px);
+    }
+}
+
+.send {
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    background-color: white;
+    border: red 2px solid;
+    bottom: 137.5px;
+    animation-name: sendFire;
+    animation-delay: 12s;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    z-index: -10;
+}
+
+@keyframes sendFire {
+    0% {
+        border-color: white;
+    }
+
+    100% {
+        border-color: red;
+        transform: translateY(-10px);
+    }
+}
+
+#send1 {
+    left: 281px;
+}
+
+#send2 {
+    left: 331px;
+}
+
+#send3 {
+    left: 481px;
+}
+
+#send4 {
+    left: 431px;
+}
+
+#send5 {
+    left: 381px;
+}
