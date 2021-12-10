@@ -1,0 +1,105 @@
+<!--
+ * @Author: AdamShyly
+ * @LastEditors: AdamShyly
+ * @Description: The night stars live at the top of the tower
+ * @Date: 2021-11-03 04:04:19
+ * @LastEditTime: 2021-12-03 00:27:40
+ * @FilePath: \cloudmusic\albumDetail.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网易云音乐</title>
+    <link rel="Icon" href="./img/icon.jpg">
+    <link rel="stylesheet" href="./albumDetail.css">
+    <script src="./albumShow.js"></script>
+
+    <style>
+        #newComments {
+            height: fit-content;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="background">
+        <video src="./mp4/sakura.mp4" controls muted="true" autoplay loop="true"></video>
+    </div>
+    <div class="title">
+        <div id="albumInfo">
+            <div id="albumImg"></div>
+            <div id="albumDetail">
+                <div class="list">
+                    <div class="albumInfoLabel">专辑ID:</div>
+                    <div class="albumInfoContent" id="albumId"></div>
+                </div>
+                <div class="list">
+                    <div class="albumInfoLabel">歌手:</div>
+                    <div class="albumInfoContent" id="singer"></div>
+                </div>
+                <div class="list">
+                    <div class="albumInfoLabel">发行公司:</div>
+                    <div class="albumInfoContent" id="albumCompany"></div>
+                </div>
+                <div class="list">
+                    <div class="albumInfoLabel">发行时间:</div>
+                    <div class="albumInfoContent" id="albumPublishTime"></div>
+                </div>
+                <div class="list">
+                    <div class="albumInfoLabel">评论数:</div>
+                    <div class="albumInfoContent" id="albumCommentAmount"></div>
+                </div>
+            </div>
+        </div>
+        <div class="albumDescription">
+            <div class="infoTitle">专辑介绍</div>
+            <div id="albumDesc"></div>
+        </div>
+    </div>
+    <div class="albumDescription">
+        <div class="infoTitle" id="commentTitle">评论</div>
+        <div class="line"></div>
+        <div class="userComment">
+            <img src="#" alt="avatar" id="user_avatar">
+            <textarea name="user_comment" id="userComment" cols="100" rows="3" oninput="countWords()" placeholder="请输入不多于140字的评论"
+                maxlength="140"></textarea>
+            <div id="countWord"></div>
+            <div class="user_comment_triangle"></div>
+            <div id="send_comment" onclick="send_comment(1)">评论</div>
+        </div>
+        <div class="line"></div>
+        <div class="infoTitle">热门评论</div>
+        <div id="albumHotComment">
+            <div id="hotComment">
+                <div class="before"></div>
+                <div id="hotCommentAvatar">
+                    <div id="hotCommentUserAvatar"></div>
+                </div>
+                <div id="hotCommentDetail">
+                    <div id="hotCommentUserName">林羽:</div>
+                    <div id="hotCommentContent">你说的对</div>
+                    <div id="hotCommentReply">
+                        <div class="triangle"></div>
+                        <div id="hotCommentReplyName">中国人:</div>
+                        <div id="hotCommentReplyContent">林羽确实很帅</div>
+                    </div>
+                    <div id="hotCommentTime">2021年11月7日</div>
+                </div>
+                <div id="hotCommentLike">
+                    <div class="LikeImg"></div>
+                    <div class="LikeCount">999</div>
+                </div>
+                <div class="after"></div>
+            </div>
+        </div>
+        <div class="infoTitle">最新评论</div>
+        <iframe src="./comment.html" frameborder="0" id="newComments"></iframe>
+    </div>
+</body>
+
+</html>

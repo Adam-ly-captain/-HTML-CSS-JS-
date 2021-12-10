@@ -1,0 +1,86 @@
+<!--
+ * @Author: AdamShyly
+ * @LastEditors: AdamShyly
+ * @Description: The night stars live at the top of the tower
+ * @Date: 2021-11-21 20:29:56
+ * @LastEditTime: 2021-12-03 01:38:10
+ * @FilePath: \cloudmusic\comment.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>评论</title>
+    <script src="./comments.js"></script>
+    <link rel="stylesheet" href="./albumDetail.css">
+
+    <style>
+        body {
+            overflow-x: hidden;
+            /* height: 864px; */
+            /* height: fit-content; */
+        }
+
+        #leap {
+            width: 40px;
+            height: 20px;
+            /* outline: none; */
+            /* border: none; */
+            border-radius: 5px;
+            line-height: 5px;
+            position: relative;
+            left: 50%;
+            margin-left: 20px;
+            bottom: 0px;
+            /* background-color: rebeccapurple; */
+            z-index: 1;
+        }
+
+        #leap:focus {
+            outline: none;
+        }
+
+        #leapTip {
+            position: absolute;
+            left: 43%;
+            color: white;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="albumHotComment">
+        <div id="hotComment">
+            <div class="before"></div>
+            <div id="hotCommentAvatar">
+                <div id="hotCommentUserAvatar"></div>
+            </div>
+            <div id="hotCommentDetail">
+                <div id="hotCommentUserName">林羽:</div>
+                <div id="hotCommentContent">你说的对</div>
+                <div id="hotCommentReply">
+                    <div class="triangle"></div>
+                    <div id="hotCommentReplyName">中国人:</div>
+                    <div id="hotCommentReplyContent">林羽确实很帅</div>
+                </div>
+                <div id="hotCommentTime">2021年11月7日</div>
+            </div>
+            <div id="hotCommentLike">
+                <div class="LikeImg"></div>
+                <div class="LikeCount">999</div>
+            </div>
+            <div class="after"></div>
+        </div>
+    </div>
+    <form action="#" onsubmit="return changeComment()">
+        <div id="leapTip">页码最大值:</div>
+        <input type="text" name="leap" id="leap" placeholder="页码" autocomplete="off">
+        <!-- <label for="leap">页码</label> -->
+    </form>
+</body>
+
+</html>
